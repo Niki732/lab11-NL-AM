@@ -9,6 +9,12 @@ One function per operation, in order.
 #Partner 2: Aaesha Mahurkar
 
 import math
+def square_root(a):
+    if a<0:
+        raise ValueError("Value must be greater than 0")
+    return math.sqrt(a)
+def hypotenuse(a,b):
+    return math.hypot(a,b)
 def add(a, b): 
     return a+b
 def subtract(a,b):
